@@ -1,0 +1,15 @@
+.Deck {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto auto;
+}
+.card-container {
+  margin: 5px;
+}
+.cards-panels {
+  display: flex;
+}
+.drawn-cards {
+  margin-left: 25px;
+  background: grey;
+}

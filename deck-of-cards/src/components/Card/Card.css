@@ -1,0 +1,45 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 200px;
+  background: white;
+  color: black;
+  border: grey 1px solid;
+  box-shadow: 1px 1px;
+  padding: 15px;
+}
+.Card-Left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Card-Center-Grid {
+  flex: 1;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
+}
+.Card-Center-Flex {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-Right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.color-red {
+  color: red;
+}
+.color-black {
+  color: black;
+}
+.Card-overlay {
+  opacity: 0.5;
+  color: grey;
+}
